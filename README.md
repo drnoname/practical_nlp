@@ -17,7 +17,15 @@
 - Spacy
 
 > conda install spacy
-> python -m spacy download en_core_web_md
+
+> conda install -c conda-forge spacy
+
+default English model (~50MB)
+> python -m spacy download en 
+
+larger English model (~1GB)
+
+> python -m spacy download en_core_web_md 
 
 - fasttext
 
